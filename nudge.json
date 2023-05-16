@@ -1,0 +1,84 @@
+{
+  "optionalFeatures": {
+    "acceptableApplicationBundleIDs": ["us.zoom.xos"],
+    "acceptableAssertionUsage": false,
+    "acceptableCameraUsage": true,
+    "acceptableScreenSharingUsage": true,
+    "aggressiveUserExperience": false,
+    "aggressiveUserFullScreenExperience": false,
+    "asynchronousSoftwareUpdate": true,
+    "attemptToBlockApplicationLaunches": false,
+    "attemptToFetchMajorUpgrade": false,
+    "blockedApplicationBundleIDs": [],
+    "enforceMinorUpdates": true,
+    "terminateApplicationsOnLaunch": false
+  },
+  "osVersionRequirements": [
+    {
+      "aboutUpdateURL": "https://support.acu.edu/TDClient/1963/Portal/Home/",
+      "requiredInstallationDate": "2023-04-15T00:00:00Z",
+      "requiredMinimumOSVersion": "12.6.5",
+      "targetedOSVersionsRule": "12"
+    },
+    {
+      "aboutUpdateURL": "https://support.acu.edu/TDClient/1963/Portal/Home/",
+      "requiredInstallationDate": "2023-04-15T00:00:00Z",
+      "requiredMinimumOSVersion": "13.3.1",
+      "targetedOSVersionsRule": "13"
+    },
+    {
+      "aboutUpdateURL": "https://support.acu.edu/TDClient/1963/Portal/Home/",
+      "requiredInstallationDate": "2023-04-15T00:00:00Z",
+      "requiredMinimumOSVersion": "11.7.6",
+      "targetedOSVersionsRule": "11"
+    }
+  ],
+  "userExperience": {
+    "allowGracePeriods": false,
+    "allowLaterDeferralButton": true,
+    "allowUserQuitDeferrals": false,
+    "allowedDeferrals": 10000,
+    "allowedDeferralsUntilForcedSecondaryQuitButton": 14,
+    "approachingRefreshCycle": 6000,
+    "approachingWindowTime": 72,
+    "elapsedRefreshCycle": 300,
+    "gracePeriodInstallDelay": 23,
+    "gracePeriodLaunchDelay": 1,
+    "gracePeriodPath": "/private/var/db/.AppleSetupDone",
+    "imminentRefreshCycle": 600,
+    "imminentWindowTime": 24,
+    "noTimers": false,
+    "nudgeRefreshCycle": 60,
+    "randomDelay": false,
+    "maxRandomDelayInSeconds": 60
+  },
+  "userInterface": {
+    "fallbackLanguage": "en",
+    "forceFallbackLanguage": false,
+    "forceScreenShotIcon": false,
+    "showDeferralCount": true,
+    "simpleMode": false,
+    "singleQuitButton": true,
+    "iconDarkPath": "/Library/Application Support/ACUIT/Nudge/nudgeAssets/nudgeDarkLogo.png",
+    "iconLightPath": "/Library/Application Support/ACUIT/Nudge/nudgeAssets/nudgeLightLogo.png",
+    "updateElements": [
+      {
+        "_language": "en",
+        "actionButtonText": "Update Device",
+        "customDeferralButtonText": "Custom",
+        "customDeferralDropdownText": "Defer",
+        "informationButtonText": "More info",
+        "mainContentHeader": "Your device will restart during this update",
+        "mainContentNote": "Important Notes",
+        "mainContentSubHeader": "Updates can take around 30 minutes to complete",
+        "mainContentText": "A fully up-to-date device is required to ensure that IT can accurately protect your device.\n\nTo begin the update, simply click on the Update Device button.\n\nA Software Update window will appear on screen. Follow the on-screen prompts in the Software Update window.\n\nIf you would like more information on the updates (i.e. updating versus upgrading), please click on More info in the bottom left of the screen.\n\nIf you have any questions or need assistance, please contact the IT Support Center at support@acu.edu or 325-674-5555.",
+        "mainHeader": "Your device requires a security update",
+        "oneDayDeferralButtonText": "One Day",
+        "oneHourDeferralButtonText": "One Hour",
+        "primaryQuitButtonText": "Later",
+        "secondaryQuitButtonText": "I understand",
+        "subHeader": "A reminder from ACU Information Technology"
+      }
+    ]
+  }
+}
