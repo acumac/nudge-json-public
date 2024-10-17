@@ -23,7 +23,7 @@
     {
       "aboutUpdateURL": "https://support.acu.edu/TDClient/1963/Portal/Home/",
       "requiredInstallationDate": "2025-01-13T00:00:00Z",
-      "requiredMinimumOSVersion": "14.7.1",
+      "requiredMinimumOSVersion": "14.7",
       "targetedOSVersionsRule": "14"
     },
     {
