@@ -13,35 +13,42 @@
     "enforceMinorUpdates": true,
     "terminateApplicationsOnLaunch": false
   },
+   "osVersionRequirements": [
+    {
+      "aboutUpdateURL": "https://support.acu.edu/TDClient/1963/Portal/Home/",
+      "requiredInstallationDate": "2024-12-13T00:00:00Z",
+      "requiredMinimumOSVersion": "26.1",
+      "targetedOSVersionsRule": "26"
+    },
   "osVersionRequirements": [
     {
       "aboutUpdateURL": "https://support.acu.edu/TDClient/1963/Portal/Home/",
       "requiredInstallationDate": "2024-12-13T00:00:00Z",
-      "requiredMinimumOSVersion": "15",
+      "requiredMinimumOSVersion": "15.7",
       "targetedOSVersionsRule": "15"
     },
     {
       "aboutUpdateURL": "https://support.acu.edu/TDClient/1963/Portal/Home/",
       "requiredInstallationDate": "2024-12-13T00:00:00Z",
-      "requiredMinimumOSVersion": "14.7",
+      "requiredMinimumOSVersion": "14.8",
       "targetedOSVersionsRule": "14"
     },
     {
       "aboutUpdateURL": "https://support.acu.edu/TDClient/1963/Portal/Home/",
       "requiredInstallationDate": "2024-12-13T00:00:00Z",
-      "requiredMinimumOSVersion": "13.7",
+      "requiredMinimumOSVersion": "14.8",
       "targetedOSVersionsRule": "12"
     },
     {
       "aboutUpdateURL": "https://support.acu.edu/TDClient/1963/Portal/Home/",
       "requiredInstallationDate": "2024-12-13T00:00:00Z",
-      "requiredMinimumOSVersion": "13.7",
+      "requiredMinimumOSVersion": "14.8",
       "targetedOSVersionsRule": "13"
     },
     {
       "aboutUpdateURL": "https://support.acu.edu/TDClient/1963/Portal/Home/",
       "requiredInstallationDate": "2024-12-13T00:00:00Z",
-      "requiredMinimumOSVersion": "13.7",
+      "requiredMinimumOSVersion": "14.8",
       "targetedOSVersionsRule": "11"
     }
   ],
