@@ -17,7 +17,7 @@
     {
       "aboutUpdateURL": "https://support.acu.edu/TDClient/1963/Portal/KB/ArticleDet?ID=150870",
       "requiredInstallationDate": "2026-01-31T00:00:00Z",
-      "requiredMinimumOSVersion": "26.1",
+      "requiredMinimumOSVersion": "26.2",
       "targetedOSVersionsRule": "26"
     },
     {
